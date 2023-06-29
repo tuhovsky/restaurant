@@ -225,3 +225,33 @@ body {
     color: #000;
     font-size: 20px;
 }
+
+.history-images {
+    position: relative;
+}
+
+.history-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images-1 {
+    position: absolute;
+    z-index: 0;
+    top: 54px;
+    left: -946px;
+}
+
+.images-2 {
+    position: absolute;
+    z-index: 100;
+    top: -87px;
+    left: -772px;
+}
+
+.images-3 {
+    position: absolute;
+    z-index: 200;
+    top: 242px;
+    left: -668px;
+}
