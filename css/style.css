@@ -485,3 +485,23 @@ body {
     color: #fff;
     text-align: center;
 }
+
+@media screen and (max-width: 1500px) {
+    .galery-content {
+        display: block;
+    }
+
+    .img-gal, .galery-up, .galery-down {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img-gal {
+        margin-bottom: 20px;
+    }
+
+    .galery-left {
+        margin-right: 0;
+    }
+}
