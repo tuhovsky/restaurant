@@ -38,7 +38,6 @@ body {
     justify-content: space-around;
 }
 
-
 /* Navigation item */
 .nav-item {
     /* Setting color of nav-items */
@@ -55,18 +54,27 @@ body {
     transition: color 0.3s linear;
 }
 
+/* Hovered nav-item */
 .nav-item:hover {
+    /* Setting the color of hovered nav-item */
     color: #d81d1d;
 }
 
+/* Cart near the nav-items */
 .cart {
+    /* Setting position relative for the cart-image's positioning */
     position: relative;
+    /* Setting white border rigth to the cart */
     border-right: 1px solid #FFFFFF;
+    /* Setting right padding between cart image and border */
     padding-right: 10px;
+    /* Setting height of the cart div (of the border) */
     height: 50px;
 }
 
+/* Cart-image */
 .cart-img {
+    /* Setting position absolute for the cart-image positioning */
     position: absolute;
     top: 18px;
     right: 7px;
