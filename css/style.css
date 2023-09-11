@@ -1,32 +1,57 @@
-body {
+/* All page */
+* {
+    /* Delete all default margins on the page */
     margin: 0;
+    /* Delete all default paddings on the page */
+    padding: 0;
+}
+
+/* Body of the page */
+body {
+    /* Set font-family for the page */
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Header of the page */
 .header {
-    background-image: url('../images/bg.png');
+    /* Set the image, position, size and discard repeating for header */
+    background: url("../images/bg.png") center / cover no-repeat;
+    /* Set the height of header to 100% of the height of viewport, fullscreen */
     height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
+/* Container of header */
 .container {
+    /* Setting margin of the container of header */
     margin: 0px 166px;
 }
 
+/* Navigation menu */
 .header-line {
+    /* Setting padding of the header-line */
     padding-top: 50px;
+    /* Setting display to flex for nav-items */
     display: flex;
+    /* Vertical align items to center */
     align-items: center;
+    /* Horizontal align items with the same space arond them */
     justify-content: space-around;
 }
 
+
+/* Navigation item */
 .nav-item {
+    /* Setting color of nav-items */
     color: #fff;
+    /* Delete underlines of nav-items */
     text-decoration: none;
+    /* Setting weight of the text of nav-items */
     font-weight: 700;
+    /* Setting size of the text of nav-items */
     font-size: 14px;
+    /* Setting right margin for nav-items */
     margin-right: 25px;
+    /* Setting transition color, time and type */
     transition: color 0.3s linear;
 }
 
