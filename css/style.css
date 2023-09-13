@@ -76,46 +76,73 @@ body {
 .cart-img {
     /* Setting position absolute for the cart-image positioning */
     position: absolute;
+    /* Move cart-image on top */
     top: 18px;
+    /* Move cart-image right */
     right: 7px;
 }
 
+/* Phone-holder container */
 .phone-holder {
+    /* Setting display to flex for phone-holder items */
     display: flex;
+    /* Vertical align items to center */
     align-items: center;
 }
 
+/* Number link */
 .num {
+    /* Setting color for number link */
     color: #fff;
+    /* Delete underline of number link */
     text-decoration: none;
+    /* Setting font-weight of number link */
     font-weight: 700;
+    /* Setting transition color, time and type */
     transition: color 0.3s linear;
 }
 
+/* Hovered number link */
 .num:hover {
+    /* Setting color of number link */
     color: #d81d1d;
 }
 
+/* Text under phone */
 .phone-text {
+    /* Setting font-size of text under phone */
     font-size: 14px;
+    /* Setting font-weight of text under phone */
     font-weight: 400;
+    /* Setting color of text under phone */
     color: #fff;
 }
 
+/* Button of reservation */
 .button {
+    /* Setting background color of the button of reservation */
     background-color: #FF7400;
+    /* Setting color of the text of the button of reservation */
     color: #fff;
+    /* Delete underline of button of reservation */
     text-decoration: none;
+    /* Setting padding for the button content */
     padding: 14px 18px;
+    /* Setting font-weight of text for the button */
     font-weight: 700;
+    /* Setting transition color, time and type */
     transition: background-color 0.2s linear;
 }
 
+/* Hovered button of reservation */
 .button:hover {
+    /* Setting background color of the button of reservation */
     background-color: #894b17;
 }
 
+/* Downside of header */
 .header-down {
+    /* Setting position relative for the header-down's items positioning */
     position: relative;
 }
 
