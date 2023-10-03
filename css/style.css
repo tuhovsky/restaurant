@@ -34,7 +34,7 @@ body {
     display: flex;
     /* Vertical align items to center */
     align-items: center;
-    /* Horizontal align items with the same space arond them */
+    /* Horizontal align items with the same space around them */
     justify-content: space-around;
 }
 
@@ -66,7 +66,7 @@ body {
     position: relative;
     /* Setting white border rigth to the cart */
     border-right: 1px solid #FFFFFF;
-    /* Setting right padding between cart image and border */
+    /* Setting right padding between cart image and left invisible border */
     padding-right: 10px;
     /* Setting height of the cart div (of the border) */
     height: 50px;
