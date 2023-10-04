@@ -146,42 +146,72 @@ body {
     position: relative;
 }
 
+/* The title of the header */
 .header-title {
+    /* Setting the color of the header title */
     color: #D67E35;
+    /* Setting the font-family of the header title */
     font-family: 'Tinos', serif;
+    /* Setting the font-size of the header title text */
     font-size: 50px;
+    /* Setting the font-weight of the header title text */
     font-weight: 400;
+    /* Align items to center */
     text-align: center;
+    /* Setting position absolute for the header title */
     position: absolute;
+    /* Ident left */
     left: 0;
+    /* Setting right margin for the header title */
     margin-top: 222px;
+    /* Setting bottom margin for the header title */
     margin-bottom: 12px;
 }
 
+/* The suptitle of the header */
 .header-suptitle {
+    /* Setting the color of the header suptitle */
     color: #fff;
+    /* Setting the font-size of the header suptitle */
     font-size: 18px;
+    /* Setting the font-family of the header suptitle */
     font-family: 'Open Sans', sans-serif;
 }
 
-.header-suptitle:after {
+/* Line before header suptitle */
+.header-suptitle:before {
+    /* Positioning absolute for moving line */
     position: absolute;
+    /* Empty content becouse must be simple line */
     content: '';
+    /* Setting height of line */
     height: 2px;
+    /* Setting length of line */
     width: 61px;
+    /* Setting color of line */
     background-color: #fff;
+    /* Move line on top */
     top: 127px;
-    left: 56px;
+    /* Move line left */
+    left: 308px;
 }
 
-.header-suptitle:before {
+/* Line after header suptitle */
+.header-suptitle:after {
+    /* Positioning absolute for moving line */
     position: absolute;
+    /* Empty content becouse must be simple line */
     content: '';
+    /* Setting height of line */
     height: 2px;
+    /* Setting length of line */
     width: 61px;
+    /* Setting color of line */
     background-color: #fff;
+    /* Move line on top */
     top: 127px;
-    left: 308px;
+    /* Move line left */
+    left: 56px;
 }
 
 .header-button {
