@@ -214,32 +214,53 @@ body {
     left: 56px;
 }
 
+/* Button of VIEW MENU */
 .header-button {
+    /* Setting color of button */
     background-color: #FF7400;
+    /* Setting padding for the button */
     padding: 14px 28px;
+    /* Setting text color of button */
     color: #fff;
+    /* Setting size of text of button */
     font-size: 14px;
+    /* Setting font weight of button */
     font-weight: 700;
+    /* Setting font-family of button */
     font-family: 'Open Sans', sans-serif;
+    /* Remove underlines from text of button */
     text-decoration: none;
+    /* Setting transition color, time & type */
     transition: background-color 0.3s linear;
 }
 
+/* Hovered button of VIEW MENU */
 .header-button:hover {
+    /* Setting background color of button of VIEW MENU */
     background-color: #904506;
 }
 
+/* Cards container */
 .cards-holder {
+    /* Setting display to flex for cards */
     display: flex;
+    /* Horizontal align items in center */
     justify-content: center;
 }
 
+/* Card with info about the restaurant */
 .card {
+    /* Setting the width of the card */
     width: 349px;
+    /* Setting shadows of the card */
     box-shadow: 10px 10px 40px 20px #0000001A;
+    /* Setting right margin of the card */
     margin-right: 31px;
+    /* Setting background color of the card */
     background-color: #fff;
+    /* Setting top margin of the card */
     margin-top: -80px;
+    /* Setting paddings of the card */
     padding: 10px 10px;
 }
 
