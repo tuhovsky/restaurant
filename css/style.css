@@ -66,7 +66,7 @@ body {
     position: relative;
     /* Setting white border rigth to the cart */
     border-right: 1px solid #FFFFFF;
-    /* Setting right padding between cart image and left invisible border */
+    /* Setting right padding between cart image and right border */
     padding-right: 10px;
     /* Setting height of the cart div (of the border) */
     height: 50px;
