@@ -264,31 +264,51 @@ body {
     padding: 10px 10px;
 }
 
+/* Image on the card */
 .card-image {
+    /* Setting display to flex for image on the card */
     display: flex;
+    /* Horizontal align items in center */
     justify-content: center;
+    /* Setting top padding of the image on the card */
     padding-top: 31px;
 }
 
+/* Title on the card */
 .card-title {
+    /* Setting display to flex for title on the card */
     display: flex;
+    /* Horizontal align items in center */
     justify-content: center;
+    /* Setting bottom margin for the title */
     margin-bottom: 20px;
+    /* Setting font for the title */
     font-family: 'Tinos', serif;
+    /* Setting size of text of the title */
     font-size: 26px;
+    /* Setting weight of text of the title */
     font-weight: 400;
 }
 
+/* Customize words in title */
 .card-title span {
+    /* Setting text color of word */
     color: #BC9060;
-    margin-left: 2px;
+    /* Setting left margin of word */
+    margin-left: 6px;
 }
 
+/* Description text of title */
 .card-desc {
+    /* Horizontal align text in center */
     text-align: center;
+    /* Setting font for the description */
     font-family: 'Tinos', serif;
+    /* Setting size of text of the description */
     font-size: 26px;
+    /* Setting weight of text of the description */
     font-weight: 400;
+    /* Setting color of the description */
     color: #656363;
 }
 
