@@ -312,77 +312,103 @@ body {
     color: #656363;
 }
 
+/* Наша история */
 .history {
+    /* Отступ истории сверху */
     margin-top: 166px;
+    /* Отступ истории снизу */
     padding-bottom: 200px;
 }
 
+/* Заголовок истории */
 .history-title {
     font-family: 'Tinos', serif;
     font-size: 54px;
     font-weight: 400;
+    /* Ширина блока заголовка истории */
     width: 444px;
-    text-align-last: center;
+    text-align: center;
+    /* Отступ между заголовком истории и текстом истории */
     margin-bottom: 21px;
 }
 
+/* Индивидуальный стиль текста в заголовке истории */
 .history-title span {
     color: #BC9060;
 }
 
+/* Описание истории */
 .history-desc {
     color: #656363;
     font-size: 16px;
+    /* Ширина блока описания истории */
     width: 444px;
     text-align: center;
 }
 
+/* Контейнер для количества товаров в ассортименте в истории */
 .history-number {
     display: flex;
+    /* Ширина контейнера для количества товаров в ассортименте в истории */
     width: 444px;
+    /* Горизонтальное выравнивание элементов контейнера для количества товаров в ассортименте в истории по центру */
     justify-content: center;
+    /* Отступ контейнера товаров сверху */
     margin-top: 40px;
+    /* Отступ контейнера товаров слева */
     margin-left: 30px;
 }
 
+/* Элемент контейнера товаров */
 .number-item {
+    /* Правый внешний отступ элемента */
     margin-right: 60px;
-    text-align-last: center;
+    text-align: center;
     font-size: 40px;
     color: #BC9060;
 }
 
+/* Индивидуальный стиль текста в элементе контейнера товаров */
 .number-item span {
     display: block;
     color: #000;
     font-size: 20px;
 }
 
+/* Контейнер для изображений истории */
 .history-images {
     position: relative;
 }
 
+/* Контейнер элементов истории */
 .history-holder {
     display: flex;
+    /* Горизонтальное выравнивание элементов истории, чтобы было одинаковое пространство между элементами */
     justify-content: space-between;
 }
 
+/* Первое изображение истории */
 .images-1 {
     position: absolute;
+    /* Изображение ниже остальных */
     z-index: 0;
     top: 54px;
     left: -946px;
 }
 
+/* Второе изображение истории */
 .images-2 {
     position: absolute;
+    /* Изображение между двумя другими изображениями */
     z-index: 100;
     top: -87px;
     left: -772px;
 }
 
+/* Третье изображение истории */
 .images-3 {
     position: absolute;
+    /* Изображение выше остальных */
     z-index: 200;
     top: 242px;
     left: -668px;
