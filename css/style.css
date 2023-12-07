@@ -524,52 +524,86 @@ body {
     margin-left: 20px;
 }
 
+/* Меню */
 .menu {
+    /* Фоновое изображение */
     background-image: url('../images/menu-bg.jpg');
+    /* Не повторять фоновое изображение */
     background-repeat: no-repeat;
+    /* Растянуть фоновое изображение */
     background-size: cover;
+    /* Внутренний нижний отступ */
     padding-bottom: 100px;
 }
 
+/* Заголовок меню */
 .menu-title {
+    /* Шрифт заголовка меню */
     font-family: 'Tinos', serif;
+    /* Размер шрифта заголовка меню */
     font-size: 54px;
+    /* Внутренний верхний отступ заголовка меню */
     padding-top: 98px;
+    /* Цвет шрифта заголовка меню */
     color: #fff;
+    /* Выравнивание заголовка блюд */
     text-align: center;
+    /* Внутренний нижний отступ заголовка блюд */
     padding-bottom: 138px;
 }
 
+/* Элемент меню */
 .menu-item {
+    /* Цвет фона */
     background-color: #fff;
+    /* Выравнивание элемента меню */
     text-align: center;
+    /* Ширина элемента меню */
     width: 22%;
+    /* Внутренний верхний отступ элемента меню */
     padding-top: 80px;
+    /* Внутренний нижний отступ элемента меню */
     padding-bottom: 30px;
+    /* Внешний правый отступ элемента меню */
     margin-right: 20px;
 }
 
+/* Текст меню */
 .menu-text {
+    /* Шрифт текста меню */
     font-family: 'Tinos', serif;
+    /* Размер шрифта текста меню */
     font-size: 26px;
+    /* Внутренний верхний отступ текста меню */
     padding-top: 16px;
+    /* Внутренний нижний отступ элемента меню */
     padding-bottom: 17px;
 }
 
+/* Описание блюда */
 .menu-subtext {
     font-size: 16px;
 }
 
+/* Кнопка блюда */
 .menu-btn {
+    /* Цвет кнопки блюда */
     background-color: #D67E34;
+    /* Убрать нижнее подчёркивание в ссылке */
     text-decoration: none;
+    /* Внутренние отступы кнопки блюда */
     padding: 14px 67px;
+    /* Цвет шрифта кнопки блюда */
     color: #fff;
+    /* Размер шрифта кнопки блюда */
     font-size: 16px;
+    /* Толщина шрифта кнопки блюда */
     font-weight: 700;
+    /* Тень кнопки блюда */
     box-shadow: 5px 5px 10px 0px #00000040;
 }
 
+/* Кнопка блюда */
 .menu-button {
     margin-top: 20px;
 }
