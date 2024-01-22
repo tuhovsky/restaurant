@@ -608,28 +608,11 @@ body {
     margin-top: 20px;
 }
 
-.price-image {
-    position: absolute;
-    bottom: 0;
-    right: 55px;
-}
-
-.menu-image {
-    position: relative;
-}
-
-.price-420 {
-    position: absolute;
-    bottom: 33px;
-    right: 83px;
-    color: #fff;
-    font-family: 'Cookie';
-    font-weight: 400;
-    font-size: 30px;
-}
-
+/* Контейнер элементов меню */
 .menu-items {
+    /* Тип размещения элементов внутри меню */
     display: flex;
+    /* Горизонтальное выравнивание элементов меню по центру */
     justify-content: center;
 }
 
