@@ -1,148 +1,148 @@
-/* All page */
+/* Вся страница */
 * {
-    /* Delete all default margins on the page */
+    /* Удаляет все внешние отступы по-умолчанию на странице */
     margin: 0;
-    /* Delete all default paddings on the page */
+    /* Удаляет все внутренние отступы по-умолчанию на странице */
     padding: 0;
 }
 
-/* Body of the page */
+/* Тело страницы */
 body {
-    /* Set font-family for the page */
+    /* Устанавливает шрифт текста на странице */
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Header of the page */
+/* Заголовок страницы */
 .header {
-    /* Set the image, position, size and discard repeating for header */
+    /* Устанавливает изображение, позицию, размер и убирает повторения для заголовка */
     background: url("../images/bg.png") center / cover no-repeat;
-    /* Set the height of header to 100% of the height of viewport, fullscreen */
+    /* Устанавливает высоту заголовка в 100% высоты видимой области, на полный экран */
     height: 100vh;
 }
 
-/* Container of header */
+/* Контейнер заголовка */
 .container {
-    /* Setting margin of the container of header */
+    /* Устанавливает внешние отсупы для контейнера заголовка */
     margin: 0px 166px;
 }
 
-/* Navigation menu */
+/* Меню навигации */
 .header-line {
-    /* Setting padding of the header-line */
+    /* Устанавливает внутренний верхний отступ полосы заголовка */
     padding-top: 50px;
-    /* Setting display to flex for nav-items */
+    /* Устанавливает тап размещения flex для элементов заголовка */
     display: flex;
-    /* Vertical align items to center */
+    /* Устанавливает вертикальное выравнивание элементов заголовка по центру */
     align-items: center;
-    /* Horizontal align items with the same space around them */
+    /* Устанавливает горизонтальное выравнивание элементов заголовка с одинаковым пространством вокруг этих элементов */
     justify-content: space-around;
 }
 
-/* Navigation item */
+/* Элемент навигации */
 .nav-item {
-    /* Setting color of nav-items */
+    /* Устанавливает цвет элемента навигации */
     color: #fff;
-    /* Delete underlines of nav-items */
+    /* Удаляет подчёркивание элемента навигации */
     text-decoration: none;
-    /* Setting weight of the text of nav-items */
+    /* Устанавливает толщину шрифта текста элемента навигации */
     font-weight: 700;
-    /* Setting size of the text of nav-items */
+    /* Устанавливает размер шрифта текста элемента навигации */
     font-size: 14px;
-    /* Setting right margin for nav-items */
+    /* Устанавливает правый внешний отступ элемента навигации */
     margin-right: 25px;
-    /* Setting transition color, time and type */
+    /* Устанавливает цвет, длительность и тип перехода */
     transition: color 0.3s linear;
 }
 
-/* Hovered nav-item */
+/* Наведённый элемент навигации */
 .nav-item:hover {
-    /* Setting the color of hovered nav-item */
+    /* Устанавливает цвет наведённого элемента навигации */
     color: #d81d1d;
 }
 
-/* Cart near the nav-items */
+/* Корзина возле элементов навигации */
 .cart {
-    /* Setting position relative for the cart-image's positioning */
+    /* Устанавливает относительное позиционирование для изображения корзины */
     position: relative;
-    /* Setting white border rigth to the cart */
+    /* Устанавливает белую границу корзине */
     border-right: 1px solid #FFFFFF;
-    /* Setting right padding between cart image and right border */
+    /* Устанавливает правый внутренний отступ между изображением корзины и правой границей */
     padding-right: 10px;
-    /* Setting height of the cart div (of the border) */
+    /* Устанавливает высоту блока корзины (границы) */
     height: 50px;
 }
 
-/* Cart-image */
+/* Изображение корзины */
 .cart-img {
-    /* Setting position absolute for the cart-image positioning */
+    /* Устанавливает абсолютное позиционирование для изображения корзины */
     position: absolute;
-    /* Move cart-image on top */
+    /* Сдвигает изображение корзины вверх */
     top: 18px;
-    /* Move cart-image right */
+    /* Сдвигает изображение корзины вправо */
     right: 7px;
 }
 
-/* Phone-holder container */
+/* Контейнер телефона */
 .phone-holder {
-    /* Setting display to flex for phone-holder items */
+    /* Устанавливает тип размещения flex для элементов телефона */
     display: flex;
-    /* Vertical align items to center */
+    /* Вертикальное выравнивание элементов телефона по центру */
     align-items: center;
 }
 
-/* Number link */
+/* Ссылка телефона */
 .num {
-    /* Setting color for number link */
+    /* Устанавливает цвет для ссылки телефона */
     color: #fff;
-    /* Delete underline of number link */
+    /* Удаляет нижнее подчёркивание для ссылки телефона */
     text-decoration: none;
-    /* Setting font-weight of number link */
+    /* Устанавливает толщину шрифта текста ссылки телефона */
     font-weight: 700;
-    /* Setting transition color, time and type */
+    /* Устанавливает цвет, длительность и тип перехода */
     transition: color 0.3s linear;
 }
 
-/* Hovered number link */
+/* Наведённая ссылка телефона */
 .num:hover {
-    /* Setting color of number link */
+    /* Устанавливает цвет ссылки телефона */
     color: #d81d1d;
 }
 
-/* Text under phone */
+/* Текст под телефоном */
 .phone-text {
-    /* Setting font-size of text under phone */
+    /* Устанавливает размер шрифта текста под телефоном */
     font-size: 14px;
-    /* Setting font-weight of text under phone */
+    /* Устанавливает толщину шрифта текста под телефоном */
     font-weight: 400;
-    /* Setting color of text under phone */
+    /* Устанавливает цвет текста под телефоном */
     color: #fff;
 }
 
-/* Button of reservation */
+/* Кнопка резервирования */
 .button {
-    /* Setting background color of the button of reservation */
+    /* Устанавливает цвет фона кнопки резервирования */
     background-color: #FF7400;
-    /* Setting color of the text of the button of reservation */
+    /* Устанавливает цвет шрифта текста кнопки резервирования */
     color: #fff;
-    /* Delete underline of button of reservation */
+    /* Удаляет подчёркивание кнопки резервирования */
     text-decoration: none;
-    /* Setting padding for the button content */
+    /* Устанавливает внутренние отступы для кнопки резервирования */
     padding: 14px 18px;
-    /* Setting font-weight of text for the button */
+    /* Устанавливает толщину шрифта текста для кнопки резервирования */
     font-weight: 700;
-    /* Setting transition color, time and type */
+    /* Устанавливает цвет, длительность и тип перехода */
     transition: background-color 0.2s linear;
 }
 
-/* Hovered button of reservation */
+/* Наведённая кнопка резервирования */
 .button:hover {
-    /* Setting background color of the button of reservation */
+    /* Устанавливает цвет фона кнопки резервирования */
     background-color: #894b17;
 }
 
-/* Downside of header */
+/* Нижняя часть заголовка */
 .header-down {
-    /* Setting position relative for the header-down's items positioning */
+    /* Устанавливает относительное позиционирование для элементов нижней части заголовка */
     position: relative;
 }
 
