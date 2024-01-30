@@ -146,71 +146,71 @@ body {
     position: relative;
 }
 
-/* The title of the header */
+/* Заголовок заголовка */
 .header-title {
-    /* Setting the color of the header title */
+    /* Устанавливает цвет заголовка заголовка */
     color: #D67E35;
-    /* Setting the font-family of the header title */
+    /* Устанавливает шрифт текста заголова заголовка */
     font-family: 'Tinos', serif;
-    /* Setting the font-size of the header title text */
+    /* Устанавливает размер шрифта текста заголовка заголовка */
     font-size: 50px;
-    /* Setting the font-weight of the header title text */
+    /* Устанавливает толщина шрифта текста заголовка заголовка */
     font-weight: 400;
-    /* Align items to center */
+    /* Устанавливает вертикальное выравнивание элементов заголовка заголовка по центру */
     text-align: center;
-    /* Setting position absolute for the header title */
+    /* Устанавливает абсолютное позиционирование заголовка заголовка */
     position: absolute;
-    /* Ident left */
+    /* Устанавливает оступ слева */
     left: 0;
-    /* Setting right margin for the header title */
+    /* Устанавливает правый внешний отступ заголовка заголовка */
     margin-top: 222px;
-    /* Setting bottom margin for the header title */
+    /* Устанавливает нижний внешний отступ заголовка заголовка */
     margin-bottom: 12px;
 }
 
-/* The suptitle of the header */
+/* Подзаголовок заголовка */
 .header-suptitle {
-    /* Setting the color of the header suptitle */
+    /* Устанавливает цвет подзаголовка заголовка */
     color: #fff;
-    /* Setting the font-size of the header suptitle */
+    /* Устанавливает размер шрифта текста подзаголовка заголовка */
     font-size: 18px;
-    /* Setting the font-family of the header suptitle */
+    /* Устанавливает шрифт подзаголовка заголовка */
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Line before header suptitle */
+/* Линия перед подзаголовком заголовка */
 .header-suptitle:before {
-    /* Positioning absolute for moving line */
+    /* Устанавливает абсолютное позиционирование для сдвига линии */
     position: absolute;
-    /* Empty content becouse must be simple line */
+    /* Пустой контент, потому как должна быть линия должна быть пустой */
     content: '';
-    /* Setting height of line */
+    /* Устанавливает высоту линии */
     height: 2px;
-    /* Setting length of line */
+    /* Устанавливает длину линии */
     width: 61px;
-    /* Setting color of line */
+    /* Устанавливает цвет линии */
     background-color: #fff;
-    /* Move line on top */
+    /* Устанавливает отступ линии сверху */
     top: 127px;
-    /* Move line left */
+    /* Устанавливает отступ линии слева */
     left: 308px;
 }
 
-/* Line after header suptitle */
+/* Линия после подзаголовка заголовка */
 .header-suptitle:after {
-    /* Positioning absolute for moving line */
+    /* Устанавливает абсолютное позиционирование для сдвига линии */
     position: absolute;
-    /* Empty content becouse must be simple line */
+    /* Пустой контент, потому как должна быть линия должна быть пустой */
     content: '';
-    /* Setting height of line */
+    /* Устанавливает высоту линии */
     height: 2px;
-    /* Setting length of line */
+    /* Устанавливает длину линии */
     width: 61px;
-    /* Setting color of line */
+    /* Устанавливает цвет линии */
     background-color: #fff;
-    /* Move line on top */
+    /* Устанавливает отступ линии сверху */
     top: 127px;
-    /* Move line left */
+    /* Устанавливает отступ линии слева */
     left: 56px;
 }
 
