@@ -13,96 +13,87 @@
 </head>
 <body>
     <div class="header">
-        <!-- Логотип -->
-        <div class="logo header__logo"></div>
-        <!-- Меню -->
-        <div class="menu header__menu"></div>
-        <!-- Корзина -->
-        <div class="cart header__cart"></div>
-        <!-- Обратная связь -->
-        <div class="callback"></div>
-        <!-- Кнопка заказа -->
-        <button class="button"></button>
-        <!-- Добро пожаловать -->
-        <div class="text">
-            <div class="text"></div>
+        <!-- Верхняя часть заголовка. Меню навигации -->
+        <div class="header-up">
+            <!-- Логотип -->
+            <img class="logo header__logo" src="/images/logo.png" alt="LOGO">
+            <!-- Меню -->
+            <div class="bem-menu header__bem-menu">
+                <a class="bem-menu__item" href="@">ГЛАВНАЯ</a>
+                <a class="bem-menu__item" href="@">МЕНЮ</a>
+                <a class="bem-menu__item" href="@">О НАС</a>
+                <a class="bem-menu__item" href="@">БРОНЬ</a>
+            </div>
+            <!-- Корзина -->
+            <div class="cart header__cart">
+                <a href="#">
+                    <img class="cart__img" src="/images/cart.png" alt="">
+                </a>
+            </div>
+            <!-- Обратная связь -->
+            <div class="callback">
+                
+            </div>
+            <!-- Кнопка заказа -->
             <button class="button"></button>
-        </div>
-        <!-- Контейнер заголовка -->
-        <div class="container">
-            <!-- Верхняя часть заголовка. Меню навигации -->
-            <div class="header-up">
-                <!-- Лого заголовка -->
-                <div class="header-logo">
-                    <img src="/images/logo.png" alt="LOGO">
-                </div>
-                <!-- Навигация -->
-                <div class="nav">
-                    <a class="nav-item" href="@">ГЛАВНАЯ</a>
-                    <a class="nav-item" href="@">МЕНЮ</a>
-                    <a class="nav-item" href="@">О НАС</a>
-                    <a class="nav-item" href="@">БРОНЬ</a>
-                </div>
-                <!-- Корзина -->
-                <div class="cart">
-                    <a href="#">
-                        <img class="cart-img" src="/images/cart.png" alt="">
-                    </a>
-                </div>
-                <!-- Иконка телефона, номер телефона и текст -->
-                <div class="phone">
-                    <!-- Иконка телефона и номер -->
-                    <div class="phone-holder">
-                        <!-- Иконка телефона -->
-                        <div class="phone-img">
-                            <img src="/images/phone.png" alt="">
-                        </div>
-                        <!-- Номер телефона -->
-                        <div class="number">
-                            <a class="num" href="#">+999-888-76-54</a>
-                        </div>
+            <!-- Добро пожаловать -->
+            <div class="text">
+                <div class="text"></div>
+                <button class="button"></button>
+            </div>
+            <!-- Иконка телефона, номер телефона и текст -->
+            <div class="phone">
+                <!-- Иконка телефона и номер -->
+                <div class="phone-holder">
+                    <!-- Иконка телефона -->
+                    <div class="phone-img">
+                        <img src="/images/phone.png" alt="">
                     </div>
-                    <!-- Текст под телефоном -->
-                    <div class="phone-text">
-                        Свяжитесь с нами для <br> бронирования
+                    <!-- Номер телефона -->
+                    <div class="number">
+                        <a class="num" href="#">+999-888-76-54</a>
                     </div>
                 </div>
-                <!-- Кнопка резервирования -->
-                <div class="btn">
-                    <a class="button" href="#">ЗАКАЗ СТОЛИКА</a>
-                </div>
-                <!-- Меню бургера для мобильных устройств -->
-                <div class="burger-menu">
-                    <!-- Кнопка меню бургеров -->
-                    <button id="burger">
-                        <img src="/images/burger-img.png" alt="">
-                    </button>
-                    <!-- Пункты меню бургеров -->
-                    <div id="menu" class="burger-slide disp">
-                        <a class="nav-item block" href="@">ГЛАВНАЯ</a>
-                        <a class="nav-item block" href="@">МЕНЮ</a>
-                        <a class="nav-item block" href="@">О НАС</a>
-                        <a class="nav-item block" href="@">БРОНЬ</a>
-                    </div>
+                <!-- Текст под телефоном -->
+                <div class="phone-text">
+                    Свяжитесь с нами для <br> бронирования
                 </div>
             </div>
+            <!-- Кнопка резервирования -->
+            <div class="btn">
+                <a class="button" href="#">ЗАКАЗ СТОЛИКА</a>
+            </div>
+            <!-- Меню бургера для мобильных устройств -->
+            <div class="burger-menu">
+                <!-- Кнопка меню бургеров -->
+                <button id="burger">
+                    <img src="/images/burger-img.png" alt="">
+                </button>
+                <!-- Пункты меню бургеров -->
+                <div id="menu" class="burger-slide disp">
+                    <a class="nav-item block" href="@">ГЛАВНАЯ</a>
+                    <a class="nav-item block" href="@">МЕНЮ</a>
+                    <a class="nav-item block" href="@">О НАС</a>
+                    <a class="nav-item block" href="@">БРОНЬ</a>
+                </div>
+            </div>
+        </div>
             <!-- Нижняя часть заголовка. Приветствие -->
-            <div class="header-down">
-                <!-- Приветствие -->
-                <div class="header-title">
-                    Добро пожаловать в
-                    <!-- Подзаголовок приветствия -->
-                    <div class="header-subtitle">
-                        Наш ресторан
-                    </div>
-                    <!-- Подзаголовк приветствия -->
-                    <div class="header-suptitle">
-                        ДОМ ЛУЧШЕЙ ЕДЫ
-                    </div>
-                    <!-- Кнопка просмотра меню в приветствии -->
-                    <div class="header-btn">
-                        <a class="header-button" href="#">VIEW MENU</a>
-                    </div>
+        <div class="header-down">
+            <!-- Приветствие -->
+            <div class="header-title">
+                Добро пожаловать в
+                <!-- Подзаголовок приветствия -->
+                <div class="header-subtitle">
+                    Наш ресторан
+                </div>
+                <!-- Подзаголовк приветствия -->
+                <div class="header-suptitle">
+                    ДОМ ЛУЧШЕЙ ЕДЫ
+                </div>
+                <!-- Кнопка просмотра меню в приветствии -->
+                <div class="header-btn">
+                    <a class="header-button" href="#">VIEW MENU</a>
                 </div>
             </div>
         </div>
