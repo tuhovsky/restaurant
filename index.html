@@ -13,17 +13,23 @@
 </head>
 <body>
     <!-- Заголовок сайта
-    Блок 'header' -->
+     Блок 'header' -->
     <div class="header">
         <!-- Верхняя часть заголовка сайта
-        Блок 'header-up' -->
-        <div class="header-up">
+         Блок 'up-header' -->
+        <div class="up-header header__up-header">
+            <!-- Логотип в заголовке сайта
+             "Элемент" `header__logo` -->
             <img class="logo header__logo" src="/images/logo.png" alt="LOGO">
-            <div class="bem-menu header__bem-menu">
-                <a class="bem-menu__item" href="@">ГЛАВНАЯ</a>
-                <a class="bem-menu__item" href="@">МЕНЮ</a>
-                <a class="bem-menu__item" href="@">О НАС</a>
-                <a class="bem-menu__item" href="@">БРОНЬ</a>
+            <!-- Меню навигации
+             Блок 'nav' -->
+            <div class="nav header__nav">
+                <!-- Пункты меню навигации
+                 Элементы 'nav__item' -->
+                <a class="nav__item" href="@">ГЛАВНАЯ</a>
+                <a class="nav__item" href="@">МЕНЮ</a>
+                <a class="nav__item" href="@">О НАС</a>
+                <a class="nav__item" href="@">БРОНЬ</a>
             </div>
             <!-- Корзина -->
             <div class="cart header__cart">
