@@ -1,0 +1,6 @@
+/* Реализация блока header, имеющего модификатор theme со значением sushi в технологии CSS */
+
+.header_theme_sushi {
+    /* Устанавливает изображение, позицию, размер и убирает повторения для заголовка */
+    background: url("../../../images/bg.png") center / cover no-repeat;
+}
