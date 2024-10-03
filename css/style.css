@@ -1,5 +1,7 @@
 @import "header/header.css";
 @import "header/_theme/header_theme_sushi.css";
+@import "upline/upline.css";
+@import "nav-menu/__item/nav-menu__item.css";
 
 /* Вся страница */
 * {
