@@ -2,6 +2,8 @@
 @import "header/_theme/header_theme_sushi.css";
 @import "upline/upline.css";
 @import "nav-menu/__item/nav-menu__item.css";
+@import "nav-menu/__item/_hovered/nav-menu__item_hovered.css";
+@import "cart/cart.css";
 
 /* Вся страница */
 * {
