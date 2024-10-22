@@ -6,12 +6,12 @@
 @import "nav-menu/__item/_hovered/nav-menu__item_hovered.css";
 @import "cart/cart.css";
 @import "cart/__img/cart__img.css";
-@import "phone/phone.css";
+@import "phone/_color/phone_color_white.css";
 @import "phone-line/phone-line.css";
 @import "phone-line/__number/phone-line__number.css";
+@import "phone-line/__number/_color/phone-line__number_color_white.css";
 @import "phone-line/__number/_hovered/phone-line__number_hovered.css";
 @import "phone-text/phone-text.css";
-@import "phone-text/_color/phone-text_color_white.css";
 
 /* Вся страница */
 * {

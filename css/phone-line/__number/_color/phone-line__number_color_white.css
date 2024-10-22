@@ -1,0 +1,6 @@
+/* Реализация элемента `phone-line__number`, имеющего модификтор color со значением white, в технологии CSS */
+
+.phone-line__number_color_white {
+    /* Устанавливает белый цвет для ссылки телефона */
+    color: #fff;
+}
