@@ -3,7 +3,6 @@
 @import "upline/upline.css";
 @import "upline/__cart/upline__cart.css";
 @import "nav-menu/__item/nav-menu__item.css";
-@import "nav-menu/__item/_hovered/nav-menu__item_hovered.css";
 @import "cart/cart.css";
 @import "cart/__img/cart__img.css";
 @import "phone/_color/phone_color_white.css";
@@ -14,6 +13,7 @@
 @import "phone-text/phone-text.css";
 @import "item/item.css";
 @import "item/_color/item_color_white.css";
+@import "item/_hovered/item_hovered.css";
 
 /* Вся страница */
 * {
