@@ -9,11 +9,11 @@
 @import "phone-line/phone-line.css";
 @import "phone-line/__number/phone-line__number.css";
 @import "phone-line/__number/_color/phone-line__number_color_white.css";
-@import "phone-line/__number/_hovered/phone-line__number_hovered.css";
+@import "phone-line/__number/_hovered/phone-line__number_hovered_red.css";
 @import "phone-text/phone-text.css";
 @import "item/item.css";
 @import "item/_color/item_color_white.css";
-@import "item/_hovered/item_hovered.css";
+@import "item/_hovered/item_hovered_red.css";
 
 /* Вся страница */
 * {
